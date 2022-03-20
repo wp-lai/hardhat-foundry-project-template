@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "../Greeter.sol";
-import "../lib/ds-test/src/test.sol";
+import "./ds-test/test.sol";
 import "hardhat/console.sol";
 
 contract GreeterTest is DSTest {
